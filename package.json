@@ -1,18 +1,18 @@
 {
-  "name": "@hyperswarm/cli",
-  "version": "1.4.3",
-  "description": "CLI tool to interact with Hyperswarm",
+  "name": "@web4/bitswarm-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to interact with BitSwarm",
   "bin": {
-    "hyperswarm": "./bin.js",
-    "hyperswarm-discovery": "./discovery.js",
-    "hyperswarm-swarm": "./swarm.js",
-    "hyperswarm-dht": "./dht.js"
+    "bitswarm": "./bin.js",
+    "bitswarm-discovery": "./discovery.js",
+    "bitswarm-swarm": "./swarm.js",
+    "bitswarm-dht": "./dht.js"
   },
   "dependencies": {
-    "@hyperswarm/dht": "^3.6.2",
-    "@hyperswarm/discovery": "^1.11.4",
+    "@web4/dht": "^3.6.2",
+    "@web4/discovery": "^1.0.0",
     "dht-size-up": "^1.0.0",
-    "hyperswarm": "^2.13.0",
+    "@web4/bitswarm": "^2.0.0",
     "minimist": "^1.2.5",
     "pump": "^3.0.0",
     "sodium-native": "^3.1.1"
@@ -25,16 +25,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperswarm/cli.git"
+    "url": "git+https://github.com/bitwebs/bitswarm-cli.git"
   },
   "keywords": [
-    "hyperswarm",
+    "bitswarm",
     "cli"
   ],
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperswarm/cli/issues"
+    "url": "https://github.com/bitwebs/bitswarm-cli/issues"
   },
-  "homepage": "https://github.com/hyperswarm/cli#readme"
+  "homepage": "https://github.com/bitwebs/bitswarm-cli#readme"
 }

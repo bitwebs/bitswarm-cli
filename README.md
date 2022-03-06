@@ -1,15 +1,15 @@
-# Hyperswarm CLI
+# BitSwarm CLI
 
-A series of CLI tools to debug and interact with the Hyperswarm network.
+A series of CLI tools to debug and interact with the BitWeb network.
 
 ```sh
-npm install -g @hyperswarm/cli
+npm install -g @web4/bitswarm-cli
 ```
 
 ## Usage
 
 ```sh
-hyperswarm # will print help
+bitswarm # will print help
 ```
 
 ## License

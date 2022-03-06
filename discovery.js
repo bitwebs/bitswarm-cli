@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const discovery = require('@hyperswarm/discovery')
+const discovery = require('@web4/discovery')
 const sodium = require('sodium-native')
 const minimist = require('minimist')
 const estimate = require('dht-size-up')

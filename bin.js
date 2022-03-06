@@ -13,7 +13,7 @@ if (!['discovery', 'swarm', 'dht'].includes(op)) {
 
   Example:
 
-    hyperswarm discovery --help
+    bitswarm discovery --help
 `)
   process.exit(1)
 }
