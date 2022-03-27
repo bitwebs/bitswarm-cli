@@ -1,6 +1,6 @@
 {
   "name": "@web4/bitswarm-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to interact with BitSwarm",
   "bin": {
     "bitswarm": "./bin.js",
@@ -9,7 +9,7 @@
     "bitswarm-dht": "./dht.js"
   },
   "dependencies": {
-    "@web4/dht": "^3.6.2",
+    "@web4/dht": "^1.0.0",
     "@web4/discovery": "^1.0.0",
     "dht-size-up": "^1.0.0",
     "@web4/bitswarm": "^2.0.0",
